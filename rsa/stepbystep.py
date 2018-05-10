@@ -54,7 +54,7 @@ print("The public exponent is e =", e)
 
 
 
-print_bold("5. Find the public exponent d, such that (ed) mod m = 1")
+print_bold("5. Find the private exponent d, such that (ed) mod m = 1")
 print("(de) mod m = 1 implies mx = 1 + ed, which in turn implies xm - ed = 1")
 print("The equation " + str(m) + "x - " + str(e) + "d = 1 can be solved using the Extended Euclidean algorithm")
 
